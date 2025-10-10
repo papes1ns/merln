@@ -5,6 +5,7 @@ on:
     branches:
       - dev
     types: [opened, synchronize, reopened, closed]
+  workflow_dispatch:
 
 concurrency:
   group: preview-${{ github.event.pull_request.number }}
