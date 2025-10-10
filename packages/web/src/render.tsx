@@ -150,7 +150,7 @@ export const Rendered = renderToString(
           aria-label="merln"
           width="60"
           height="20"
-          src="/favicon.svg"
+          src="./favicon.svg"
         />
       </div>
       <div class="footer-right">
@@ -167,13 +167,13 @@ export const Rendered = renderToString(
           <h3>Terms</h3>
           <p>
             The JSON API is available at{" "}
-            <a href="/api.json" target="_blank">
+            <a href="./api.json" target="_blank">
               /api.json
             </a>
           </p>
           <p>
             There is a ruleset for crawlers in the{" "}
-            <a href="/robots.txt" target="_blank">
+            <a href="./robots.txt" target="_blank">
               /robots.txt
             </a>{" "}
             file.
